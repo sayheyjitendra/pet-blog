@@ -326,4 +326,8 @@ h2.dogs-title{
 .author-bio{
   padding:  20px 0;
 }
+
+.featured-image{
+  width: 100%;
+}
 /* END Single Post */
