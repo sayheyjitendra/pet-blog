@@ -309,12 +309,13 @@ h2.dogs-title{
 
 .single-article{ 
    grid-area: article;
-   padding: 0 50px;
+   padding: 30px 50px;
    font-size: 18px;
-   padding-right: 100px;
+   /* padding-right: 100px; */
    background: white;
    padding-top: 30px;
    box-shadow: 0 0 30px rgba(0,0,0,.13);
+   text-align: justify;
 
 }
 
@@ -324,10 +325,25 @@ h2.dogs-title{
 }
 
 .author-bio{
-  padding:  20px 0;
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+.author-bio i{
+  margin-right: 5px;
+}
+
+.fa-calendar-days{
+  margin-left: 10px;
 }
 
 .featured-image{
   width: 100%;
+  margin-bottom: 20px;
+}
+
+
+.single-article h2{
+  margin: 20px 0 10px 0;
 }
 /* END Single Post */
