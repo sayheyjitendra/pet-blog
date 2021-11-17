@@ -19,11 +19,11 @@ html {
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif !important;
   font-size: 18px;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
@@ -73,7 +73,7 @@ section.newsletter {
   display: flex;
   align-items: center;
 }
-form {
+.newsletter form {
   max-width: 420px;
   margin: 50px auto;
   background: white;
@@ -82,7 +82,6 @@ form {
 
 .feedback-input {
   color: black;
-  font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 18px;
   border-radius: 5px;
@@ -283,67 +282,98 @@ footer h3 {
   margin: auto;
   width: 70%;
   margin-top: -50px;
- 
 }
 
 h2.cats-title,
-h2.dogs-title{
+h2.dogs-title {
   font-size: 42px;
   margin: 10px 0 20px 60px;
-  
 }
 /*END Blog Page Design */
 
-
-
 /* Single Post */
-.single-post-container{
-  
+.single-post-container {
   margin: 20px 100px;
   display: grid;
-  grid-template-areas:
-  'article article article sidebar';
+  grid-template-areas: "article article article sidebar";
 
   grid-column-gap: 20px;
 }
 
-.single-article{ 
-   grid-area: article;
-   padding: 30px 50px;
-   font-size: 18px;
-   /* padding-right: 100px; */
-   background: white;
-   padding-top: 30px;
-   box-shadow: 0 0 30px rgba(0,0,0,.13);
-   text-align: justify;
-
+.single-article {
+  grid-area: article;
+  padding: 30px 50px;
+  font-size: 18px;
+  /* padding-right: 100px; */
+  background: white;
+  padding-top: 30px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.13);
+  text-align: justify;
 }
 
-.blog-sidebar{
+.blog-sidebar {
   background: red;
   grid-area: sidebar;
 }
 
-.author-bio{
+.author-bio {
   margin: 20px 0;
   font-weight: 500;
 }
 
-.author-bio i{
+.author-bio i {
   margin-right: 5px;
 }
 
-.fa-calendar-days{
+.fa-calendar-days {
   margin-left: 10px;
 }
 
-.featured-image{
+.featured-image {
   width: 100%;
   margin-bottom: 20px;
 }
 
-
-.single-article h2{
+.single-article h2 {
   margin: 20px 0 10px 0;
 }
 /* END Single Post */
+
+/* Contact Form */
+.contact-form {
+  font-size: 16px;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 16px;
+  background: #f7f7f7;
+  background: #2e87c9;
+}
+.contact-form h1 {
+  background: #2e87c9;
+  padding: 20px 0;
+  font-size: 140%;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+ 
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea,
+.contact-form select {
+  outline: none;
+
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color: #555;
+}
+
+.contact-form input[type="submit"]{
+  background: transparent;
+  border: 2px solid #fff;
+}
