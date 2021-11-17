@@ -293,3 +293,37 @@ h2.dogs-title{
   
 }
 /*END Blog Page Design */
+
+
+
+/* Single Post */
+.single-post-container{
+  
+  margin: 20px 100px;
+  display: grid;
+  grid-template-areas:
+  'article article article sidebar';
+
+  grid-column-gap: 20px;
+}
+
+.single-article{ 
+   grid-area: article;
+   padding: 0 50px;
+   font-size: 18px;
+   padding-right: 100px;
+   background: white;
+   padding-top: 30px;
+   box-shadow: 0 0 30px rgba(0,0,0,.13);
+
+}
+
+.blog-sidebar{
+  background: red;
+  grid-area: sidebar;
+}
+
+.author-bio{
+  padding:  20px 0;
+}
+/* END Single Post */
