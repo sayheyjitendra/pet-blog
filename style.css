@@ -23,6 +23,10 @@ body {
   font-size: 18px;
 }
 
+.hidden{
+  display: none;
+}
+
 header,
 nav {
   background: #2e87c9;
@@ -266,16 +270,26 @@ footer h3 {
   background: #2e87c9;
   font-size: 18px;
   margin-left: 15px;
+  cursor: pointer;
 }
 
-.feedback-input.destination {
+.feedback-input.category {
   margin-top: 50px;
   width: 60%;
   margin-left: 50px;
+  cursor: pointer;
 }
 .selector {
   margin: auto;
   width: 70%;
   margin-top: -50px;
+ 
+}
+
+h2.cats-title,
+h2.dogs-title{
+  font-size: 42px;
+  margin: 10px 0 20px 60px;
+  
 }
 /*END Blog Page Design */
