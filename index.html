@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Blog</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <h1>Title</h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Dogs</a></li>
+          <li><a href="#">Cats</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <button class="main-btn">Join Our Newsletter</button>
+
+        <!-- <button>Join Our Newsletter</button> -->
+      </nav>
+    </header>
+
+    <section class="newsletter hidden">
+      <img src="images/close_icon.png" id="close" />
+      <form name="contactform">
+        <input
+          name="Name"
+          type="text"
+          class="feedback-input"
+          placeholder="Name"
+          required
+        />
+        <input
+          name="Email"
+          type="text"
+          class="feedback-input"
+          placeholder="Email"
+        />
+
+        <input type="submit" value="SUBMIT" />
+      </form>
+    </section>
+
+    <main id="main-section">
+      <div class="main">
+        <img
+          src="images/dog.jpg"
+          alt=""
+          class="main-img"
+          width="160"
+          height="600"
+        />
+
+        <div class="main-text">
+          <h1 class="center">
+            All About Pet Grooming,<br />
+            Pet Care <br />
+            and Pet Training
+          </h1>
+          <button class="go">Go To Blog</button>
+        </div>
+      </div>
+    </main>
+
+    <section class="blog" id="blog">
+      <h1 class="center">Blog</h1>
+      <div class="blog-container">
+        <div class="blog-post post-1">
+          <div class="blog-post-img">
+            <img src="images/blog-post-1.jpg" alt="" width="100" />
+          </div>
+          <h2>5 Best Dog Breeds for First-Time Owners</h2>
+        </div>
+
+        <div class="blog-post post-2">
+          <div class="blog-post-img">
+            <img src="images/blog-post-1.jpg" alt="" width="100" />
+          </div>
+          <h2>5 Best Dog Breeds for First-Time Owners</h2>
+        </div>
+
+        <div class="blog-post post-3">
+          <div class="blog-post-img">
+            <img src="images/blog-post-1.jpg" alt="" width="100%" class=""/>
+          </div>
+          <h2>5 Best Dog Breeds for First-Time Owners</h2>
+        </div>
+      </div>
+
+      <button class="load-more"><a href="/blog.html">Load More Post</a></button>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
