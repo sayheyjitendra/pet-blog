@@ -15,5 +15,14 @@ close.addEventListener("click", function(){
 })
 
 
+let cats = document.getElementById("cats");
+let dogs = document.getElementById("dogs");
+let selectedOption;
+function destination() {
+  selectedOption = document.getElementById("selectDestination").value;
+
+ console.log(selectedOption);
+ 
+}
 
 

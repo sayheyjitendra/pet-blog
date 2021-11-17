@@ -25,20 +25,17 @@
   <body>
     <header id="header">
       <div class="logo">
-        <h1><a href="index.html"> Title</a></h1>
-
+        <h1><a href="index.html">Title</a> </h1>
       </div>
       <nav>
         <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="/blog.html">Blog</a></li>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="#">Blog</a></li>
           <li><a href="#">Dogs</a></li>
           <li><a href="#">Cats</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
         <button class="main-btn">Join Our Newsletter</button>
-
-        <!-- <button>Join Our Newsletter</button> -->
       </nav>
     </header>
 
@@ -63,51 +60,22 @@
       </form>
     </section>
 
-    <main id="main-section">
-      <div class="main">
+    <main class="blog-page">
 
-        <div class="main-text">
-          <h1 class="center">
-            All About Pet Grooming,<br />
-            Pet Care <br />
-            and Pet Training
-          </h1>
-          <button class="go"> <a href="#blog"> Go To Blog</a></button>
+        <h1 class="center">Blog</h1>
+<div class="selector">
+        <select name="" id="selectDestination" class="feedback-input destination">
+            <option value="Select">Select The Category</option>
+            <option value="Cats" >Cats</option>
+            <option value="Dogs">Dogs</option>
+          </select>
+    
+          <button class="btn btn-details" onclick="destination()">Load Post</button>
         </div>
-      </div>
     </main>
 
-    <section class="blog" id="blog">
-      <h1 class="center">Blog</h1>
-      <div class="blog-container">
-        <div class="blog-post post-1">
-          <div class="blog-post-img">
-            <img src="images/blog-post-1.jpg" alt="" width="100" />
-          </div>
-          <h2>5 Best Dog Breeds for First-Time Owners</h2>
-        </div>
-
-        <div class="blog-post post-2">
-          <div class="blog-post-img">
-            <img src="images/blog-post-1.jpg" alt="" width="100" />
-          </div>
-          <h2>5 Best Dog Breeds for First-Time Owners</h2>
-        </div>
-
-        <div class="blog-post post-3">
-          <div class="blog-post-img">
-            <img src="images/blog-post-1.jpg" alt="" width="100%" class=""/>
-          </div>
-          <h2>5 Best Dog Breeds for First-Time Owners</h2>
-        </div>
-      </div>
-
-      <button class="load-more"><a href="/blog.html">Load More Post</a></button>
-    </section>
-
-
+   
         <footer>
-
             <div class="address">
                 <h3>Popular Categories</h3>
                 <p>Cats</p>
@@ -135,8 +103,6 @@
              <a href="https://instagram.com" target="_blank"> <i class="fa-brands fa-2x fa-instagram"></i></a>
             </div>
           </footer>
-        
-  
 
     <script src="main.js"></script>
   </body>
