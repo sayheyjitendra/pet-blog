@@ -14,6 +14,10 @@ button {
   border: none;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
   font-family: "Rubik", sans-serif;
   font-size: 18px;
