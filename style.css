@@ -197,6 +197,10 @@ textarea {
   text-align: center;
   margin: 20px 0;
 }
+
+.blog-post a{
+  margin: 0 10px;
+}
 .post-1 {
   margin-left: 55px;
 }
@@ -312,8 +316,30 @@ h2.dogs-title {
 }
 
 .blog-sidebar {
-  background: red;
+  background: white ;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.13);
   grid-area: sidebar;
+  margin-left: 20px;
+  padding: 30px 20px;
+  overflow: hidden;
+  height: fit-content;
+}
+
+.blog-sidebar h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.popular-post h3{
+  text-align: center;
+}
+
+.popular-post {
+  margin: 10px 0;
+}
+
+
+.popular-post img{
+  width: 100%;
 }
 
 .author-bio {

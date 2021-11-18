@@ -21,6 +21,12 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+
+    <style>
+      section.newsletter{
+       background: rgb(48 39 39 / 81%);
+      }
+    </style>
   </head>
   <body>
     <header id="header">
@@ -63,80 +69,90 @@
     <main class="blog-page">
       <h1 class="center">Blog</h1>
       <div class="selector">
-        <select
-          name=""
-          id="selectCategory"
-          class="feedback-input category"
-        >
+        <select name="" id="selectCategory" class="feedback-input category">
           <option value="Select">Select The Category</option>
           <option value="Cats">Cats</option>
           <option value="Dogs">Dogs</option>
         </select>
 
-        <button class="btn btn-details" onclick="category()">
-          Load Post
-        </button>
+        <button class="btn btn-details" onclick="category()">Load Post</button>
       </div>
     </main>
 
-
     <section id="cats" class="cats-post">
-        <h2 class="cats-title">Cats</h2>
+      <h2 class="cats-title">Cats</h2>
 
-        <div class="blog-container">
-            <div class="blog-post post-1">
-              <div class="blog-post-img">
-                <img src="images/cat.webp" alt="" width="100" />
-              </div>
-              <h2><a href="./blog-post/post-2.html">5 Best Cat Breeds for First-Time Owners </a></h2>
-            </div>
-    
-            <div class="blog-post post-2">
-              <div class="blog-post-img">
-                <img src="images/cat.webp" alt="" width="100" />
-              </div>
-              <h2>5 Best Dog Breeds for First-Time Owners</h2>
-            </div>
-    
-            <div class="blog-post post-3">
-              <div class="blog-post-img">
-                <img src="images/blog-post-1.jpg" alt="" width="100%" class=""/>
-              </div>
-              <h2>5 Best Dog Breeds for First-Time Owners</h2>
-              <h2><a href="./blog-post/post-4.html">5 Food Choices That Are Good For Cats</a></h2>
-
-            </div>
+      <div class="blog-container">
+        <div class="blog-post post-1">
+          <div class="blog-post-img">
+            <img src="images/cat.webp" alt="" width="100" />
           </div>
+          <h2>
+            <a href="./blog-post/post-2.html"
+              >5 Best Cat Breeds for First-Time Owners
+            </a>
+          </h2>
+        </div>
+
+        <div class="blog-post post-2">
+          <div class="blog-post-img">
+            <img src="images/cat-food.jpg" alt="" width="100" />
+          </div>
+          <h2>
+            <a href="./blog-post/post-4.html"
+              >5 Food Choices That Are Good For Cats</a
+            >
+          </h2>
+        </div>
+
+        <div class="blog-post post-3">
+          <div class="blog-post-img">
+            <img src="images/cat-post-3.jpg" alt="" width="100%" class="" />
+          </div>
+
+          <h2>
+            <a href="./blog-post/post-3.html"
+              >How to Stop a Cat from Scratching</a>
+          </h2>
+        </div>
+      </div>
     </section>
 
-
     <section id="dogs" class="dogs-post">
-        <h2 class="dogs-title">Dogs</h2>
+      <h2 class="dogs-title">Dogs</h2>
 
-        <div class="blog-container">
-            <div class="blog-post post-1">
-              <div class="blog-post-img">
-                <img src="images/blog-post-1.jpg" alt="" width="100" />
-              </div>
-              <h2>5 Best Dog Breeds for First-Time Owners</h2>
-            </div>
-    
-            <div class="blog-post post-2">
-              <div class="blog-post-img">
-                <img src="images/dog-training.jpg" alt="" width="100" />
-              </div>
-              <h2><a href="./blog-post/post-5.html">Dog Behavioral Training: A Complete Guide</a></h2>
-            </div>
-    
-            <div class="blog-post post-3">
-              <div class="blog-post-img">
-                <img src="images/dog-barking.jpg" alt="" width="100%" class=""/>
-              </div>
-              
-              <h2><a href="./blog-post/post-6.html">How to Teach Your Dog to Not Bark at Strangers</a></h2>
-
-            </div>
+      <div class="blog-container">
+        <div class="blog-post post-1">
+          <div class="blog-post-img">
+            <img src="images/blog-post-1.jpg" alt="" width="100" />
           </div>
+          <h2> <a href="./blog-post/post-1.html"> 5 Best Dog Breeds for First-Time Owners</a>
+           </h2>
+        </div>
+
+        <div class="blog-post post-2">
+          <div class="blog-post-img">
+            <img src="images/dog-training.jpg" alt="" width="100" />
+          </div>
+          <h2>
+            <a href="./blog-post/post-5.html"
+              >Dog Behavioral Training: A Complete Guide</a
+            >
+          </h2>
+        </div>
+
+        <div class="blog-post post-3">
+          <div class="blog-post-img">
+            <img src="images/dog-barking.jpg" alt="" width="100" class="" />
+          </div>
+
+          <h2>
+            <a href="./blog-post/post-6.html"
+              >How to Teach Your Dog to Not Bark at Strangers</a
+            >
+          </h2>
+        </div>
+      </div>
     </section>
 
     <footer>
@@ -174,6 +190,6 @@
       </div>
     </footer>
 
-    <script src="main.js"></script>
+    <script src="../main.js"></script>
   </body>
 </html>
